@@ -1,23 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+
+    <!-- way 1 to add CSS: Using style Tag
+        
+        <style>
+        body {
+            color: red;
+        }
+    </style> -->
     
-    <link href="/styles.css" rel="stylesheet"/>
+    <!-- way 3 to add CSS: Importing from external stylesheet --> 
+
+    <!--use '/' before styles.css when styles.css is in root folder and we are accessing it from file(components.html) present in anpther folder(lib) --> 
+    <link href="/styles.css" rel="stylesheet" />
 
 </head>
+
 <body>
+
+    <!-- way 2 to add CSS: Using style attribute
+
+    <h1 style="color:red">Component Library</h1> -->
 
     <h1>Component Library</h1>
 
     <p>This is a component library created to better design each element.</p>
 
     <p>After creating this library we are going to use these components in our
-    <strong>portfolio, blog and all projects</strong> created. This will 
-    ensure that all the projects have <strong>consistent themeing and 
-    styling</strong></p>
+        <strong>portfolio, blog and all projects</strong> created. This will
+        ensure that all the projects have <strong>consistent themeing and
+        styling</strong></p>
 
     <hr> <!-- This is logical division, not just a line -->
 
@@ -28,7 +45,7 @@
     <h2>The second biggest heading h2</h2>
 
     <p>This is normal text. Long running text would look like this on your
-    website. This will auto fold based on the width</p>
+        website. This will auto fold based on the width</p>
 
     <small>This is relatively smaller text</small>
 
@@ -39,12 +56,12 @@
     <h3>@fluid container</h3>
 
     <div class="container-fluid">This is going to be a fluid container. I will go till width of
-    page with some margin.</div>
+        page with some margin.</div>
 
     <h3>@center container</h3>
 
-    <div class ="container">This is going to be a center container. It will go till a given
-    width and center content.</div>
+    <div class="container">This is going to be a center container. It will go till a given
+        width and center content.</div>
 
     <hr>
 
@@ -79,7 +96,7 @@
     <h3>@unordered inline list</h3>
 
     <p>Instead of going in a new row, we will create a list
-    which will take columns.</p>
+        which will take columns.</p>
 
     <ul>
         <li class="list-item-inline">Item One</li>
@@ -102,7 +119,7 @@
     <h2>@nav</h2>
 
     <p>Navigation is used on the top of the page and used to get to different
-    pages</p>
+        pages</p>
     <nav class="navigation">
         <div class="nav-brand">theBrandName</div>
         <ul class="list-non-bullet nav-pills">
@@ -123,7 +140,8 @@
     <h2>@header</h2>
 
     <header class="hero">
-        <img class="hero-img" src="images/hero 1.svg"/>
+        <!-- fix - Use '/' before path as images folder is present in root folder -->
+        <img class="hero-img" src="/images/hero 1.svg" />
         <h1 class="hero-heading">this is heading h1 <span class="heading-inverted">inside hero</span></h1>
     </header>
 
@@ -132,29 +150,29 @@
     <h2>@section</h2>
 
     <p>A section is used to separate parts of pages. In marketing websites
-    you would have seen a header followed by sections of features, team, 
-    pricing, contact info etc.</p>
+        you would have seen a header followed by sections of features, team,
+        pricing, contact info etc.</p>
 
     <h3>@normal section</h3>
 
-    <section class = "section">
-        <div class = "container container-center">
-        <h2>heading inside section</h2>
-        <p>Text defining this section and many more things</p>
-        <a class="link link-primary" href="/">Primary Button</a>
+    <section class="section">
+        <div class="container container-center">
+            <h2>heading inside section</h2>
+            <p>Text defining this section and many more things</p>
+            <a class="link link-primary" href="/">Primary Button</a>
         </div>
     </section>
-    
+
     <h3>@an off white section</h3>
 
-    <section class = "section ow">
-        <div class = "container container-center">
-        <h2>inside off white section</h2>
-        <p>Text defining this section and many more things</p>
-        <a class="link link-primary" href="/">Primary Button</a>
+    <section class="section ow">
+        <div class="container container-center">
+            <h2>inside off white section</h2>
+            <p>Text defining this section and many more things</p>
+            <a class="link link-primary" href="/">Primary Button</a>
         </div>
     </section>
-    
+
     <hr>
 
     <h2>@footer</h2>
@@ -178,4 +196,5 @@
     <!-- <div style="height: 30vh"></div> -->
 
 </body>
+
 </html>
