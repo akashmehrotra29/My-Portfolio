@@ -16,6 +16,14 @@ hr{
     margin: 2rem 0rem;
 }
 
+/**Spaces**/
+
+.margin-md{
+    margin: 2rem;
+}
+
+
+
 .container {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -28,6 +36,7 @@ hr{
 
 /* links */
 .link{
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
@@ -125,6 +134,11 @@ hr{
     text-align: center;
     color: white;
     border-top-right-radius: 2rem;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: larger;
 }
 
 .footer .link {
