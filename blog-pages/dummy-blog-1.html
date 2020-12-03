@@ -3,14 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dummy Blog</title>
+    <title>Blog</title>
 
     <link href="/styles.css" rel="stylesheet"/>
 
 </head>
 <body>
     <header class="hero">
-    <h1 class="hero-heading">Coming <span class="heading-inverted">Soon...</span></h1>
+    <h1 class="hero-heading">GET V/S POST <span class="heading-inverted">HTTP Request Methods</span></h1>
     </header>
+
+    <p class="para-center">The HTTP (Hyper Text Transfer Protocol) is designed to communicate between client and servers. HTTP works as request-response protocol between client and server.</p>
+        
+    <p class="para-center">HTTP defines a set of request methods which tell about desired action to be performed for each request. The request methods are sometimes also referred as HTTP verbs. </p>
+        
+    <p class="para-center"><strong>GET METHOD:</strong> GET is used to request data from specified resource. It is one of the most common HTTP methods. A query string having name-value pairs is sent in URL of GET request. </p>    
+        
+    <p class="para-center">GET request can be cached. They remain in browser history and can also be bookmarked. GET request should never be used when dealing with sensitive data. They have length restrictions and can only be used to request data, not to modify it.</p>
+        
+    <p class="para-center"><strong>POST METHOD:</strong> POST method is used to send data to a server to create/ update a resource. The data which is sent to the server with POST request, is stored in the request body.</p>
+        
+    <p class="para-center">POST request can never be cached. They do not remain in browser history and can not be bookmarked. They also don’t have restrictions on data length.</p>
+
+    <p class="para-center">Other HTTP request methods include <strong>PUT, HEAD, DELETE, PATCH, OPTIONS, CONNECT, TRACE</strong>.
+    </p>
 </body>
 </html>
