@@ -159,3 +159,9 @@ hr{
 .footer ul{
      padding-inline-start: 0px; /*Overwritten margin coming from user style sheet (of browser) */
 }
+
+.para-center{
+    
+    margin-left: 50px;
+    margin-right: 50px;
+}
