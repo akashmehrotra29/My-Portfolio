@@ -168,3 +168,16 @@ hr{
     margin-left: 50px;
     margin-right: 50px;
 }
+
+/*Blog*/
+
+code {
+    background-color: #eee;
+    padding: 0 3px;
+    font-family: consolas,"Liberation Mono",courier,monospace;
+    border-left: 2px solid var(--primary-color);
+}
+
+.space{
+    padding: 0.1px;
+}

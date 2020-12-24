@@ -11,7 +11,46 @@
 <body>
 
     <header class="hero">
-    <h1 class="hero-heading">Coming<span class="heading-inverted">Soon...</span></h1>
+    <h1 class="hero-heading">CSS <span class="heading-inverted">Selectors</span></h1>
+
+    <p>CSS selectors are used to find HTML elements which we want to style. Selectors are part of CSS rule set. There are wide range of CSS selectors available, which allow us to precisely select elements that we want to style. CSS selectors select HTML elements according to its id, class, type, attribute etc. The elements which are selected by selector are referred to as subject of the selector.</p>
+
+    <p>There are several different types of selectors in CSS. Few basic and most used selectors are as follows:</p>
+    
+    <ol>
+        <li>Element Selector</li>
+        <li>Id Selector</li>
+        <li>Class Selector</li>
+        <li>Universal Selector</li>
+        <li>Group Selector</li>
+    </ol>
+
+    <p><strong>ELEMENT SELECTOR:</strong>
+    The element selector selects the HTML elements based upon the element name. <br>
+    <div class="space">Syntax: <code>elementname</code> </div> <br>
+    Example: <code>p{ }</code> will match all the para elements in the HTML page and design them.</p>
+
+    <p><strong>ID SELECTOR:</strong> 
+    The id selector selects an element based upon the value of its id attribute. The id should always be unique within the page, so that id selector can be used to uniquely select element. To select an element with specific id we use (#) character before the id of element. <br>
+    <div class="space">Syntax: <code>#idname</code> </div> <br>
+    Example: <code>#component1{ }</code> will design HTML element with <code>id=”component1”</code>.</p>
+
+    <p><strong>CLASS SELECTOR:</strong>
+    The class selector selects all HTML elements that have the given class attribute. To select elements of specific class we use period (.) character before class name. <br>
+    <div class="space">Syntax: <code>classname</code> </div> <br>
+    Example: <code>.align{ } </code>will design all HTML elements with <code>class=”align”</code>.</p>
+
+    <p><strong>UNIVERSAL SELECTOR:</strong>
+    The universal selector (*) selects all the HTML elements on the page. <br>
+    <div class="space">Syntax: <code>*</code> </div> <br>
+    Example: <code>*{ }</code> will design and make changes to every element of the HTML page.</p>
+
+    <p><strong>GROUP SELECTOR:</strong>
+    The group selector selects all HTML elements with the same style definition. We use group selector to minimize the code. We use comma (,) to separate each selector. <br>
+    <div class="space">Syntax: <code>A, B, C</code> </div> <br>
+    Example: <code>h1, h2, p { }</code> will provide same CSS properties to design all the elements.</p>
+
+
     </header>
     
 </body>
